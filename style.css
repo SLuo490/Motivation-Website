@@ -1,0 +1,33 @@
+body {
+  margin:0 ;
+  background-color:antiquewhite;
+  min-height: 100vh;
+}
+
+header {
+  background-color: black;
+  padding-top: 10px;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+
+}
+
+/* clear fix with floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav {
+  float:right;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+  padding-bottom: 10px;
+}
