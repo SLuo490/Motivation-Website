@@ -62,7 +62,17 @@ nav li {
   text-decoration: none;
 }
 
+
 .main-button button {
   border: 2px solid black;
   padding:2em 4em;
+  background-color: #F8F8F8;
+  cursor: pointer;
+  border-radius: .5em;
+  font-size: 1.025em;
+}
+
+.main-button button:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: translateY(-0.25em);
 }
